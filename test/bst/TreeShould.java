@@ -9,8 +9,11 @@ import org.junit.Test;
 public class TreeShould {
 
     @Test
-    public void CreateAnEmptyTree(){
-        Assert.assertTrue(true);
+    public void CreateATreeWithASingleValue(){
+        int value = 1;
+        Tree tree = new Tree(value);
+
+        Assert.assertEquals(value, tree.GetValue());
     }
 
 }
