@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class TreeTest {
 
     @Test
-    public void CreateATreeWithAValue(){
+    public void createATreeWithAValue(){
         int value = 1;
         Tree tree = new Tree(value);
 
@@ -19,7 +19,7 @@ public class TreeTest {
     }
 
     @Test
-    public void AddAHigherValueToATree(){
+    public void addAHigherValueToATree(){
         int firstValue = 1;
         int secondValue = 2;
         Tree tree = new Tree(firstValue);
@@ -30,7 +30,7 @@ public class TreeTest {
     }
 
     @Test
-    public void AddALowerValueToATree(){
+    public void addALowerValueToATree(){
         int firstValue = 2;
         int secondValue = 1;
         Tree tree = new Tree(firstValue);
@@ -41,7 +41,7 @@ public class TreeTest {
     }
 
     @Test
-    public void RetrieveValuesOrdered(){
+    public void retrieveValuesOrdered(){
         int[] initialValues = new int[]{ 3, 4, 1, 2 };
         int[] orderedValues = new int[]{ 1, 2, 3, 4 };
         Tree tree = new Tree(initialValues[0]);
