@@ -12,31 +12,58 @@ public class Tree {
         _value = value;
     }
 
-    public int GetValue() {
+    public int getValue() {
         return _value;
     }
 
-    public void AddValue(int value) {
+    public void addValue(int value) {
         if (value > _value){
             if (_rightSubTree == null){
                 _rightSubTree = new Tree(value);
             } else {
-                _rightSubTree.AddValue(value);
+                _rightSubTree.addValue(value);
             }
         } else if (value < _value){
             if (_leftSubTree == null){
                 _leftSubTree = new Tree(value);
             } else {
-                _leftSubTree.AddValue(value);
+                _leftSubTree.addValue(value);
             }
         }
     }
 
-    public Tree GetLeftSubTree() {
+    public Tree getLeftSubTree() {
         return _leftSubTree;
     }
 
-    public Tree GetRightSubTree(){
+    public Tree getRightSubTree(){
         return _rightSubTree;
+    }
+
+    public int[] inOrder() {
+        int[] result;
+        int[] leftSubTree = new int[0];
+        int[] rightSubTree = new int[0];
+
+        if (_leftSubTree != null){
+            leftSubTree = _leftSubTree.inOrder();
+        }
+        if (_rightSubTree != null){
+            rightSubTree = _rightSubTree.inOrder();
+        }
+
+        result = new int[leftSubTree.length + rightSubTree.length + 1];
+
+        for(int index = 0; index < leftSubTree.length; index++){
+            result[index] = leftSubTree[index];
+        }
+
+        result[leftSubTree.length] = _value;
+
+        for(int index=0; index < rightSubTree.length; index++){
+            result[leftSubTree.length + 1 + index] = rightSubTree[index];
+        }
+
+        return result;
     }
 }
