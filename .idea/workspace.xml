@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05f50818-bd2a-4e86-a863-50de7c217cd7" name="Default" comment="Removing .idea files">
+    <list default="true" id="05f50818-bd2a-4e86-a863-50de7c217cd7" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="BinarySearchTreeJava.iws" />
@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bst/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0597345" vertical-offset="31" max-vertical-offset="720">
+            <state vertical-scroll-proportion="-239.5" vertical-offset="31" max-vertical-offset="720">
               <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding>
                 <element signature="e#190#191#0" expanded="true" />
@@ -42,6 +42,16 @@
                 <element signature="e#844#845#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="454">
+              <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,20 +167,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bst" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinarySearchTreeJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BinarySearchTreeJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,11 +414,23 @@
       <option name="project" value="LOCAL" />
       <updated>1437502729951</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removing .idea files">
+      <created>1437503146715</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1437503146715</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding gitignore file">
+      <created>1437503226121</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1437503226121</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -463,12 +471,15 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="First Test Working (CreateATreeWithASingleValue)" />
     <MESSAGE value="Second and Third Tests adding higher and lower values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second and Third Tests adding higher and lower values" />
+    <MESSAGE value="Removing .idea files" />
+    <MESSAGE value="adding gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding gitignore file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -507,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bst/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0597345" vertical-offset="31" max-vertical-offset="720">
+        <state vertical-scroll-proportion="-239.5" vertical-offset="31" max-vertical-offset="720">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="e#190#191#0" expanded="true" />
@@ -519,6 +530,14 @@
             <element signature="e#844#845#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="691">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
