@@ -8,7 +8,7 @@ import java.util.Arrays;
 /**
  * Created by duber on 21/07/15.
  */
-public class TreeShould {
+public class TreeTest {
 
     @Test
     public void CreateATreeWithAValue(){
